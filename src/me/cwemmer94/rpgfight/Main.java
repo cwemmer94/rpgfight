@@ -13,5 +13,10 @@ public class Main extends EmberEngine
 	public void setup() 
 	{
 		System.out.println("Hello, World!");
+		this.window.setWindowSize(1280, 720);
+		this.window.setWindowTitle("RPG Fight");
+		this.window.setWindowFlags(true);
+		this.window.setupWindow();
 	}
+	
 }
